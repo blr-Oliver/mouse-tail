@@ -1,0 +1,19 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	overflow: hidden;
+}
+.segment{
+	position: absolute;
+	border-radius: 50%;
+	background-color: lightblue;
+	width: 32px;
+	height: 32px;
+	margin-left: -16px;
+	margin-top: -16px;
+	transition-property: opacity;
+	transition-duration: 300ms;
+	pointer-events: none;
+}
